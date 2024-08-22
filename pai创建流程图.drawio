@@ -48,7 +48,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6Ara_hWOSPcM3JgTyZOW-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6Ara_hWOSPcM3JgTyZOW-16" target="6Ara_hWOSPcM3JgTyZOW-43">
+        <mxCell id="6Ara_hWOSPcM3JgTyZOW-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6Ara_hWOSPcM3JgTyZOW-16" target="6Ara_hWOSPcM3JgTyZOW-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6Ara_hWOSPcM3JgTyZOW-16" value="调用阿里云异步创建服务sdk" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
@@ -69,12 +69,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6Ara_hWOSPcM3JgTyZOW-20" value="调用阿里云异步启动服务sdk" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="525" width="120" height="60" as="geometry" />
+          <mxGeometry x="740" y="688" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6Ara_hWOSPcM3JgTyZOW-23" value="&lt;b&gt;确认如何处理&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="525" width="120" height="60" as="geometry" />
+        <mxCell id="6Ara_hWOSPcM3JgTyZOW-23" value="&lt;b&gt;考虑增加告警&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="688" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6Ara_hWOSPcM3JgTyZOW-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6Ara_hWOSPcM3JgTyZOW-30" target="6Ara_hWOSPcM3JgTyZOW-32">
+        <mxCell id="6Ara_hWOSPcM3JgTyZOW-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6Ara_hWOSPcM3JgTyZOW-30" target="6Ara_hWOSPcM3JgTyZOW-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6Ara_hWOSPcM3JgTyZOW-34" value="服务启动失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6Ara_hWOSPcM3JgTyZOW-33">
@@ -91,18 +91,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6Ara_hWOSPcM3JgTyZOW-30" value="调用阿里云查询服务信息接口" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="630" width="120" height="60" as="geometry" />
+          <mxGeometry x="740" y="793" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6Ara_hWOSPcM3JgTyZOW-32" value="返回失败信息" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="630" width="120" height="60" as="geometry" />
+          <mxGeometry x="380" y="793" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6Ara_hWOSPcM3JgTyZOW-35" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6Ara_hWOSPcM3JgTyZOW-30" target="6Ara_hWOSPcM3JgTyZOW-30">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="748" y="540" as="sourcePoint" />
-            <mxPoint x="798" y="490" as="targetPoint" />
+            <mxPoint x="838" y="703" as="sourcePoint" />
+            <mxPoint x="888" y="653" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="838" y="590" />
-              <mxPoint x="888" y="670" />
+              <mxPoint x="928" y="753" />
+              <mxPoint x="978" y="833" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -111,18 +111,21 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="6Ara_hWOSPcM3JgTyZOW-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6Ara_hWOSPcM3JgTyZOW-37" target="6Ara_hWOSPcM3JgTyZOW-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6Ara_hWOSPcM3JgTyZOW-37" value="写入Apollo" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="656" y="740" width="108" height="40" as="geometry" />
+          <mxGeometry x="746" y="903" width="108" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6Ara_hWOSPcM3JgTyZOW-43" value="返回创建成功结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="292" y="555" width="120" height="60" as="geometry" />
+          <mxGeometry x="292" y="650" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6Ara_hWOSPcM3JgTyZOW-45" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="6Ara_hWOSPcM3JgTyZOW-20">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="360" y="490" as="sourcePoint" />
+            <mxPoint x="350" y="630" as="sourcePoint" />
             <mxPoint x="440" y="670" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="510" y="490" />
+              <mxPoint x="510" y="630" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -130,6 +133,21 @@
           <mxGeometry x="-0.3236" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="6Ara_hWOSPcM3JgTyZOW-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6Ara_hWOSPcM3JgTyZOW-47" target="6Ara_hWOSPcM3JgTyZOW-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Ara_hWOSPcM3JgTyZOW-47" value="写入mysql" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="292" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6Ara_hWOSPcM3JgTyZOW-49" value="写入mysql" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6Ara_hWOSPcM3JgTyZOW-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6Ara_hWOSPcM3JgTyZOW-51" target="6Ara_hWOSPcM3JgTyZOW-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Ara_hWOSPcM3JgTyZOW-51" value="写入mysql" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="793" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
