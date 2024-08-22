@@ -126,7 +126,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6Ara_hWOSPcM3JgTyZOW-46" value="异步流程" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6Ara_hWOSPcM3JgTyZOW-45">
+        <mxCell id="6Ara_hWOSPcM3JgTyZOW-46" value="异步逻辑" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6Ara_hWOSPcM3JgTyZOW-45">
           <mxGeometry x="-0.3236" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
