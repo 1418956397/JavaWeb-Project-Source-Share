@@ -146,7 +146,7 @@
           <mxGeometry x="550" y="950" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Kd3mIDDI3rd_kEx0YePV-16" value="完全结束" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="1040" width="120" height="60" as="geometry" />
+          <mxGeometry x="550" y="1040" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Kd3mIDDI3rd_kEx0YePV-18" value="告警结束" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="780" y="730" width="120" height="60" as="geometry" />
