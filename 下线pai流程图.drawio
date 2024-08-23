@@ -134,6 +134,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="I5W7qzTJJJn9ER3g-bew-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I5W7qzTJJJn9ER3g-bew-39" target="I5W7qzTJJJn9ER3g-bew-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="I5W7qzTJJJn9ER3g-bew-39" value="更改mysql数据&lt;div&gt;库对应服务信息&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="525" y="920" width="130" height="60" as="geometry" />
         </mxCell>
@@ -150,6 +153,9 @@
           <mxGeometry x="-0.1273" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="I5W7qzTJJJn9ER3g-bew-47" value="整体全部结束" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1040" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
