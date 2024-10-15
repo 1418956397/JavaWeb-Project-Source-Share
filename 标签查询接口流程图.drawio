@@ -1,9 +1,69 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.12">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="Ppuh2RllOEx7e-Ec_xf0">
-    <mxGraphModel>
+    <mxGraphModel dx="1026" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3Pmfj5CGFZU7iZF1KX0t-1" value="查询标签列表" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="100" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3Pmfj5CGFZU7iZF1KX0t-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3Pmfj5CGFZU7iZF1KX0t-1" target="3Pmfj5CGFZU7iZF1KX0t-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="150" as="sourcePoint" />
+            <mxPoint x="310" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Pmfj5CGFZU7iZF1KX0t-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3Pmfj5CGFZU7iZF1KX0t-4" target="3Pmfj5CGFZU7iZF1KX0t-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3Pmfj5CGFZU7iZF1KX0t-4" value="校验分页参数" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="180" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3Pmfj5CGFZU7iZF1KX0t-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3Pmfj5CGFZU7iZF1KX0t-6" target="3Pmfj5CGFZU7iZF1KX0t-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3Pmfj5CGFZU7iZF1KX0t-12" value="校验不通过" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3Pmfj5CGFZU7iZF1KX0t-11">
+          <mxGeometry x="0.1556" y="-3" relative="1" as="geometry">
+            <mxPoint x="12" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Pmfj5CGFZU7iZF1KX0t-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3Pmfj5CGFZU7iZF1KX0t-6" target="3Pmfj5CGFZU7iZF1KX0t-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3Pmfj5CGFZU7iZF1KX0t-6" value="校验查询参数" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="310" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3Pmfj5CGFZU7iZF1KX0t-8" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="3Pmfj5CGFZU7iZF1KX0t-6" target="3Pmfj5CGFZU7iZF1KX0t-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="320" as="sourcePoint" />
+            <mxPoint x="490" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="320" />
+              <mxPoint x="410" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Pmfj5CGFZU7iZF1KX0t-9" value="校验参数列表：&lt;div&gt;code&lt;/div&gt;&lt;div&gt;标签名&lt;/div&gt;&lt;div&gt;实体&lt;/div&gt;&lt;div&gt;上线状态&lt;/div&gt;&lt;div&gt;更新状态&lt;/div&gt;&lt;div&gt;创建方式&lt;/div&gt;&lt;div&gt;值类型&lt;/div&gt;&lt;div&gt;计算类型&lt;/div&gt;&lt;div&gt;更新模式&lt;/div&gt;&lt;div&gt;更新频率&lt;/div&gt;&lt;div&gt;创建人&lt;/div&gt;&lt;div&gt;修改人&lt;/div&gt;&lt;div&gt;创建日期&lt;/div&gt;&lt;div&gt;更新日期&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="60" width="120" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="3Pmfj5CGFZU7iZF1KX0t-10" value="提示失败信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Pmfj5CGFZU7iZF1KX0t-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3Pmfj5CGFZU7iZF1KX0t-13" target="3Pmfj5CGFZU7iZF1KX0t-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3Pmfj5CGFZU7iZF1KX0t-13" value="拼接sql查询数据库" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Pmfj5CGFZU7iZF1KX0t-15" value="封装返回数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="555" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3Pmfj5CGFZU7iZF1KX0t-17" value="&lt;font color=&quot;#ff6666&quot;&gt;不知道校验啥，需确认&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="205" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3Pmfj5CGFZU7iZF1KX0t-18" value="封装分类" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="560" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
