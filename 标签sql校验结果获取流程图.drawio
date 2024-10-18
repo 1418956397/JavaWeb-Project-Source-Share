@@ -37,7 +37,7 @@
         <mxCell id="d8UXTFsGi_f-RUGDa4nG-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d8UXTFsGi_f-RUGDa4nG-12" target="d8UXTFsGi_f-RUGDa4nG-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="d8UXTFsGi_f-RUGDa4nG-12" value="获取最多十条结果" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="d8UXTFsGi_f-RUGDa4nG-12" value="odps获取最多十条结果" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="267.5" y="450" width="135" height="60" as="geometry" />
         </mxCell>
         <mxCell id="d8UXTFsGi_f-RUGDa4nG-14" value="封装返回" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
