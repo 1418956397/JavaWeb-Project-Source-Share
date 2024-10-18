@@ -1,9 +1,47 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="uWSThM_glE0ANEyKwjhP">
-    <mxGraphModel>
+    <mxGraphModel dx="1026" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VLuIAE1a0T2NLtZTQdPu-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VLuIAE1a0T2NLtZTQdPu-1" target="VLuIAE1a0T2NLtZTQdPu-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VLuIAE1a0T2NLtZTQdPu-1" value="标签详情查询" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="70" width="116" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VLuIAE1a0T2NLtZTQdPu-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VLuIAE1a0T2NLtZTQdPu-2" target="VLuIAE1a0T2NLtZTQdPu-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VLuIAE1a0T2NLtZTQdPu-6" value="不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VLuIAE1a0T2NLtZTQdPu-5">
+          <mxGeometry x="-0.0769" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VLuIAE1a0T2NLtZTQdPu-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VLuIAE1a0T2NLtZTQdPu-2" target="VLuIAE1a0T2NLtZTQdPu-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VLuIAE1a0T2NLtZTQdPu-2" value="根据标签ID&lt;div&gt;和标签名校验标签存在&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="268" y="185" width="168" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="VLuIAE1a0T2NLtZTQdPu-4" value="返回标签不存在" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="44" y="192.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VLuIAE1a0T2NLtZTQdPu-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VLuIAE1a0T2NLtZTQdPu-7" target="VLuIAE1a0T2NLtZTQdPu-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VLuIAE1a0T2NLtZTQdPu-7" value="查询标签基础信息mysql表" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="292" y="347.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VLuIAE1a0T2NLtZTQdPu-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VLuIAE1a0T2NLtZTQdPu-9" target="VLuIAE1a0T2NLtZTQdPu-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VLuIAE1a0T2NLtZTQdPu-9" value="查询标签分类表获取标签对应&lt;div&gt;层级分类&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="292" y="487.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VLuIAE1a0T2NLtZTQdPu-11" value="封装数据返回" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="292" y="627.5" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
