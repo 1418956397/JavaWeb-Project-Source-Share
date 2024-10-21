@@ -107,15 +107,6 @@
         <mxCell id="fn0Ux1Jt2qbfrXhC0f1r-24" value="标签基础信息表修改标签为下线状态" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="190" y="782.795" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fn0Ux1Jt2qbfrXhC0f1r-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fn0Ux1Jt2qbfrXhC0f1r-28" target="fn0Ux1Jt2qbfrXhC0f1r-29" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="fn0Ux1Jt2qbfrXhC0f1r-28" value="查询标签规则列表" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
-          <mxGeometry x="720" y="140" width="130" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="fn0Ux1Jt2qbfrXhC0f1r-29" value="标签基础信息表将展示版本修改为上一个上线规则" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
-          <mxGeometry x="722.5" y="270" width="125" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="jptFg6-p0BdRSxH8RKtY-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fn0Ux1Jt2qbfrXhC0f1r-31" target="jptFg6-p0BdRSxH8RKtY-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
