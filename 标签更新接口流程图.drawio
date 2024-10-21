@@ -39,6 +39,9 @@
         <mxCell id="dnVBaHPE359D20NYWFpn-2" value="标签规则表新增数据，为草稿" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="510" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="dnVBaHPE359D20NYWFpn-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dnVBaHPE359D20NYWFpn-4" target="dnVBaHPE359D20NYWFpn-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="dnVBaHPE359D20NYWFpn-4" value="修改标签基础信息表" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="510" width="120" height="60" as="geometry" />
         </mxCell>
@@ -50,6 +53,15 @@
         </mxCell>
         <mxCell id="dnVBaHPE359D20NYWFpn-8" value="写入标签评审表" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dnVBaHPE359D20NYWFpn-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dnVBaHPE359D20NYWFpn-10" target="dnVBaHPE359D20NYWFpn-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dnVBaHPE359D20NYWFpn-10" value="是否需要更新&lt;div&gt;odps（更新频率？）&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="640" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dnVBaHPE359D20NYWFpn-12" value="修改提交odps任务" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="810" width="130" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
