@@ -58,10 +58,18 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dnVBaHPE359D20NYWFpn-10" value="是否需要更新&lt;div&gt;odps（更新频率？）&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="375" y="640" width="130" height="80" as="geometry" />
+          <mxGeometry x="242.5" y="980" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="dnVBaHPE359D20NYWFpn-12" value="修改提交odps任务" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="375" y="810" width="130" height="50" as="geometry" />
+          <mxGeometry x="242.5" y="1150" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dnVBaHPE359D20NYWFpn-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.081;entryY=0.613;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dnVBaHPE359D20NYWFpn-8" target="dnVBaHPE359D20NYWFpn-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="1020" />
+              <mxPoint x="253" y="1020" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
