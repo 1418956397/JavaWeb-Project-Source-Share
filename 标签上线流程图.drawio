@@ -50,7 +50,7 @@
         <mxCell id="uC9DRx_by4xYmF0WvetJ-12" value="写入标签审批表记录" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="282" y="510" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uC9DRx_by4xYmF0WvetJ-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uC9DRx_by4xYmF0WvetJ-14" edge="1">
+        <mxCell id="uC9DRx_by4xYmF0WvetJ-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uC9DRx_by4xYmF0WvetJ-14" edge="1" target="Mzf36mk6sUA4yV3bFFoE-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="342" y="740" as="targetPoint" />
           </mxGeometry>
@@ -58,8 +58,14 @@
         <mxCell id="uC9DRx_by4xYmF0WvetJ-14" value="修改标签规则表，对应版本改为审批中" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="282" y="620" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uC9DRx_by4xYmF0WvetJ-18" value="返回申请成功" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="283" y="740" width="120" height="60" as="geometry" />
+        <mxCell id="Mzf36mk6sUA4yV3bFFoE-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Mzf36mk6sUA4yV3bFFoE-1" target="Mzf36mk6sUA4yV3bFFoE-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mzf36mk6sUA4yV3bFFoE-1" value="标签基础信息表将状态改为审批中" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="282" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mzf36mk6sUA4yV3bFFoE-2" value="封装返回信息" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="282" y="800" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
