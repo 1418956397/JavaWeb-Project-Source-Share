@@ -50,9 +50,9 @@
         <mxCell id="uAed6FK6qWFAK_bdM42A-14" value="写入审批数据库" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="335" y="660" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uAed6FK6qWFAK_bdM42A-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uAed6FK6qWFAK_bdM42A-16" target="Gb4cuOTI60gQYrWZTxpC-1" edge="1">
+        <mxCell id="uAed6FK6qWFAK_bdM42A-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uAed6FK6qWFAK_bdM42A-16" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="395" y="880" as="targetPoint" />
+            <mxPoint x="395" y="860" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uAed6FK6qWFAK_bdM42A-16" value="修改标签规则表&lt;div&gt;将对应版本置为&lt;/div&gt;&lt;div&gt;审批中&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
@@ -70,14 +70,8 @@
         <mxCell id="uAed6FK6qWFAK_bdM42A-23" value="返回不可下线" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="130" y="392.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Gb4cuOTI60gQYrWZTxpC-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gb4cuOTI60gQYrWZTxpC-1" target="Gb4cuOTI60gQYrWZTxpC-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Gb4cuOTI60gQYrWZTxpC-1" value="标签基础信息表将状态改为&lt;div&gt;审批中&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="335" y="860" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="Gb4cuOTI60gQYrWZTxpC-2" value="封装返回信息" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="337.5" y="960" width="115" height="50" as="geometry" />
+          <mxGeometry x="335" y="860" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
