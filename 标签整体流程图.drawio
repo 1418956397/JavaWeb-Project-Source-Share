@@ -17,6 +17,15 @@
         <mxCell id="-SsP1CFAZnbRiIt0Rbaj-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-SsP1CFAZnbRiIt0Rbaj-5" target="-SsP1CFAZnbRiIt0Rbaj-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="-SsP1CFAZnbRiIt0Rbaj-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-SsP1CFAZnbRiIt0Rbaj-5" target="-SsP1CFAZnbRiIt0Rbaj-68">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="300" />
+              <mxPoint x="580" y="210" />
+              <mxPoint x="670" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="-SsP1CFAZnbRiIt0Rbaj-5" value="实体" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="460" y="260" width="60" height="80" as="geometry" />
         </mxCell>
@@ -32,6 +41,23 @@
         <mxCell id="-SsP1CFAZnbRiIt0Rbaj-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-SsP1CFAZnbRiIt0Rbaj-6" target="-SsP1CFAZnbRiIt0Rbaj-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="-SsP1CFAZnbRiIt0Rbaj-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-SsP1CFAZnbRiIt0Rbaj-6" target="-SsP1CFAZnbRiIt0Rbaj-68">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-SsP1CFAZnbRiIt0Rbaj-72" value="实体与表绑定后记录关系" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-SsP1CFAZnbRiIt0Rbaj-70">
+          <mxGeometry x="0.275" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-SsP1CFAZnbRiIt0Rbaj-74" value="表创建绑定实体" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-SsP1CFAZnbRiIt0Rbaj-70">
+          <mxGeometry x="-0.595" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="-SsP1CFAZnbRiIt0Rbaj-6" value="元数据表" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="260" y="170" width="60" height="80" as="geometry" />
         </mxCell>
@@ -45,7 +71,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-SsP1CFAZnbRiIt0Rbaj-9" value="元数据字典表" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="570" y="130" width="60" height="80" as="geometry" />
+          <mxGeometry x="600" y="110" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-SsP1CFAZnbRiIt0Rbaj-10" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-SsP1CFAZnbRiIt0Rbaj-6" target="-SsP1CFAZnbRiIt0Rbaj-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -222,6 +248,9 @@
           <mxGeometry x="-0.1344" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="-SsP1CFAZnbRiIt0Rbaj-68" value="实体id字段表" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="640" y="260" width="60" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
