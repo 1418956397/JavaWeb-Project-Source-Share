@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="-SsP1CFAZnbRiIt0Rbaj-4" value="odps表" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" parent="1" vertex="1">
-          <mxGeometry x="70" y="90" width="90" height="60" as="geometry" />
+          <mxGeometry x="-60" y="50" width="90" height="90" as="geometry" />
         </mxCell>
         <mxCell id="-SsP1CFAZnbRiIt0Rbaj-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-SsP1CFAZnbRiIt0Rbaj-5" target="-SsP1CFAZnbRiIt0Rbaj-6" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -65,7 +65,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-SsP1CFAZnbRiIt0Rbaj-9" value="元数据字典表" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="85" y="-50" width="60" height="80" as="geometry" />
+          <mxGeometry x="130" y="-50" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-SsP1CFAZnbRiIt0Rbaj-11" value="元数据字段关联表" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="450" y="-50" width="80" height="80" as="geometry" />
@@ -139,7 +139,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-SsP1CFAZnbRiIt0Rbaj-39" value="标签分类" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="90" y="260" width="60" height="80" as="geometry" />
+          <mxGeometry x="120" y="260" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-SsP1CFAZnbRiIt0Rbaj-41" value="标签更新表" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="710" y="585" width="70" height="80" as="geometry" />
@@ -230,17 +230,17 @@
         <mxCell id="nBwIrbf57UpdQbHYywen-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nBwIrbf57UpdQbHYywen-1" target="-SsP1CFAZnbRiIt0Rbaj-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="390" y="-40" />
-              <mxPoint x="390" y="-40" />
+              <mxPoint x="385" y="-40" />
+              <mxPoint x="385" y="-10" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="nBwIrbf57UpdQbHYywen-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nBwIrbf57UpdQbHYywen-1">
+        <mxCell id="nBwIrbf57UpdQbHYywen-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nBwIrbf57UpdQbHYywen-1" target="-SsP1CFAZnbRiIt0Rbaj-11">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="430" y="-40" as="targetPoint" />
             <Array as="points">
               <mxPoint x="400" y="20" />
-              <mxPoint x="400" y="-39" />
+              <mxPoint x="400" y="-10" />
             </Array>
           </mxGeometry>
         </mxCell>
