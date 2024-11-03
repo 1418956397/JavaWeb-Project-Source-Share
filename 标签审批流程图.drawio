@@ -166,16 +166,18 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jptFg6-p0BdRSxH8RKtY-35" value="下线" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jptFg6-p0BdRSxH8RKtY-22" target="jptFg6-p0BdRSxH8RKtY-34" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="jptFg6-p0BdRSxH8RKtY-35" value="下线" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jptFg6-p0BdRSxH8RKtY-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="662.8000000000002" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="jptFg6-p0BdRSxH8RKtY-22" value="上线or修改or下线" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="580" y="552.8100000000001" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="8P1_6oIPHLhSTvokI3tl-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jptFg6-p0BdRSxH8RKtY-23" target="8P1_6oIPHLhSTvokI3tl-1">
+        <mxCell id="8P1_6oIPHLhSTvokI3tl-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jptFg6-p0BdRSxH8RKtY-23" target="8P1_6oIPHLhSTvokI3tl-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8P1_6oIPHLhSTvokI3tl-3" value="之前是草稿" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8P1_6oIPHLhSTvokI3tl-2">
+        <mxCell id="8P1_6oIPHLhSTvokI3tl-3" value="之前是草稿" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="8P1_6oIPHLhSTvokI3tl-2" vertex="1" connectable="0">
           <mxGeometry x="0.0292" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -186,24 +188,21 @@
         <mxCell id="jptFg6-p0BdRSxH8RKtY-26" value="标签规则表修改对应版本为&lt;font color=&quot;#ff3333&quot;&gt;草稿？&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="585" y="662.8000000000001" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jptFg6-p0BdRSxH8RKtY-34" value="标签规则表修改对应版本为&lt;font color=&quot;#ff3333&quot;&gt;草稿？&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="770" y="662.8000000000001" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="8P1_6oIPHLhSTvokI3tl-1" value="基础信息表为草稿" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="8P1_6oIPHLhSTvokI3tl-1" value="基础信息表为草稿" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="800" width="70" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8P1_6oIPHLhSTvokI3tl-5" value="基础信息表改为下线" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8P1_6oIPHLhSTvokI3tl-5" value="基础信息表改为下线" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="800" width="70" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8P1_6oIPHLhSTvokI3tl-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jptFg6-p0BdRSxH8RKtY-23" target="8P1_6oIPHLhSTvokI3tl-5">
+        <mxCell id="8P1_6oIPHLhSTvokI3tl-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jptFg6-p0BdRSxH8RKtY-23" target="8P1_6oIPHLhSTvokI3tl-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8P1_6oIPHLhSTvokI3tl-7" value="之前是下线" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8P1_6oIPHLhSTvokI3tl-6">
+        <mxCell id="8P1_6oIPHLhSTvokI3tl-7" value="之前是下线" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="8P1_6oIPHLhSTvokI3tl-6" vertex="1" connectable="0">
           <mxGeometry x="-0.053" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8P1_6oIPHLhSTvokI3tl-13" value="整体修改审批记录表对应规则" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8P1_6oIPHLhSTvokI3tl-13" value="整体修改审批记录表对应规则" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="1200" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
