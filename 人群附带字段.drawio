@@ -1,17 +1,54 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7">
   <diagram name="第 1 页" id="dNE7bsFuqDS4QT3SGKGQ">
-    <mxGraphModel dx="1257" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1018" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="phLCAleKNdKECWSzhlN1-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="phLCAleKNdKECWSzhlN1-1" target="phLCAleKNdKECWSzhlN1-2">
+        <mxCell id="phLCAleKNdKECWSzhlN1-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="phLCAleKNdKECWSzhlN1-1" target="phLCAleKNdKECWSzhlN1-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="phLCAleKNdKECWSzhlN1-1" value="人群创建" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="phLCAleKNdKECWSzhlN1-1" value="人群创建" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="30" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="phLCAleKNdKECWSzhlN1-2" value="新增输出字段选择" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="o61bZkSr8tZisU5YXVaz-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="phLCAleKNdKECWSzhlN1-2" target="o61bZkSr8tZisU5YXVaz-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phLCAleKNdKECWSzhlN1-2" value="新增输出字段选择" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="315" y="140" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o61bZkSr8tZisU5YXVaz-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="o61bZkSr8tZisU5YXVaz-7" target="o61bZkSr8tZisU5YXVaz-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="320" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o61bZkSr8tZisU5YXVaz-3" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="179" y="360" width="400" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="o61bZkSr8tZisU5YXVaz-5" value="人群链式处理" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="335" y="370" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="o61bZkSr8tZisU5YXVaz-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="o61bZkSr8tZisU5YXVaz-6" target="o61bZkSr8tZisU5YXVaz-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o61bZkSr8tZisU5YXVaz-6" value="基础表处理器：&lt;div&gt;判断是否输出主键&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="320" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o61bZkSr8tZisU5YXVaz-7" value="数据库新增字段保存" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#82b366;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="344" y="230" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o61bZkSr8tZisU5YXVaz-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="o61bZkSr8tZisU5YXVaz-8" target="o61bZkSr8tZisU5YXVaz-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o61bZkSr8tZisU5YXVaz-8" value="扩展字段处理器：&lt;div&gt;处理原扩展字段&lt;/div&gt;&lt;div&gt;和输出字段&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o61bZkSr8tZisU5YXVaz-10" value="是否在基础处理器处理全部逻辑&lt;div&gt;（前提是在一张基表）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="460" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o61bZkSr8tZisU5YXVaz-11" value="随机数处理器：&lt;div&gt;处理随机数过滤字段&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="610" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
