@@ -59,7 +59,7 @@
         <mxCell id="o61bZkSr8tZisU5YXVaz-11" value="随机数处理器：&lt;div&gt;处理随机数过滤字段&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="320" y="610" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="o61bZkSr8tZisU5YXVaz-13" value="暂定apollo配置&lt;div&gt;供选择&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#dae8fc;" vertex="1" parent="1">
+        <mxCell id="o61bZkSr8tZisU5YXVaz-13" value="暂定前端写死" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="530" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o61bZkSr8tZisU5YXVaz-15" value="随机数过滤字段是否需要支持自定义" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#ffe6cc;" vertex="1" parent="1">
