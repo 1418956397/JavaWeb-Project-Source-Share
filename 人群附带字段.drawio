@@ -15,6 +15,9 @@
             <mxPoint x="380" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="o61bZkSr8tZisU5YXVaz-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="phLCAleKNdKECWSzhlN1-2" target="o61bZkSr8tZisU5YXVaz-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="phLCAleKNdKECWSzhlN1-2" value="新增输出字段选择" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="315" y="140" width="130" height="60" as="geometry" />
         </mxCell>
@@ -49,6 +52,12 @@
         </mxCell>
         <mxCell id="o61bZkSr8tZisU5YXVaz-11" value="随机数处理器：&lt;div&gt;处理随机数过滤字段&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="320" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o61bZkSr8tZisU5YXVaz-13" value="暂定apollo配置&lt;div&gt;供选择&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="530" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o61bZkSr8tZisU5YXVaz-15" value="随机数过滤字段是否需要支持自定义" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="460" y="610" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
