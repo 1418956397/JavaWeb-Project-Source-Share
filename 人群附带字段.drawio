@@ -26,6 +26,9 @@
             <mxPoint x="380" y="320" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="o61bZkSr8tZisU5YXVaz-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="o61bZkSr8tZisU5YXVaz-3" target="o61bZkSr8tZisU5YXVaz-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="o61bZkSr8tZisU5YXVaz-3" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="179" y="360" width="400" height="490" as="geometry" />
         </mxCell>
@@ -50,6 +53,9 @@
         <mxCell id="o61bZkSr8tZisU5YXVaz-10" value="是否在基础处理器处理全部逻辑&lt;div&gt;（前提是在一张基表）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#ffe6cc;" vertex="1" parent="1">
           <mxGeometry x="460" y="410" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="o61bZkSr8tZisU5YXVaz-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="o61bZkSr8tZisU5YXVaz-11" target="o61bZkSr8tZisU5YXVaz-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="o61bZkSr8tZisU5YXVaz-11" value="随机数处理器：&lt;div&gt;处理随机数过滤字段&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="320" y="610" width="120" height="60" as="geometry" />
         </mxCell>
@@ -58,6 +64,18 @@
         </mxCell>
         <mxCell id="o61bZkSr8tZisU5YXVaz-15" value="随机数过滤字段是否需要支持自定义" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#ffe6cc;" vertex="1" parent="1">
           <mxGeometry x="460" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o61bZkSr8tZisU5YXVaz-16" value="人群使用处理器：&lt;div&gt;处理写入OSS中&lt;/div&gt;&lt;div&gt;输出字段&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o61bZkSr8tZisU5YXVaz-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="o61bZkSr8tZisU5YXVaz-18" target="o61bZkSr8tZisU5YXVaz-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o61bZkSr8tZisU5YXVaz-18" value="holo中存放全量数据&lt;div&gt;（包含实体字段和输出字段等）&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="325" y="900" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="o61bZkSr8tZisU5YXVaz-20" value="OSS仅写入&lt;div&gt;输出字段&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1060" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
