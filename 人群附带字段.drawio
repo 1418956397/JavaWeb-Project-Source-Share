@@ -50,20 +50,14 @@
         <mxCell id="o61bZkSr8tZisU5YXVaz-8" value="扩展字段处理器：&lt;div&gt;处理原扩展字段&lt;/div&gt;&lt;div&gt;和输出字段&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="320" y="510" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="o61bZkSr8tZisU5YXVaz-10" value="是否在基础处理器处理全部逻辑&lt;div&gt;（前提是在一张基表）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#ffe6cc;" vertex="1" parent="1">
-          <mxGeometry x="460" y="410" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="o61bZkSr8tZisU5YXVaz-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="o61bZkSr8tZisU5YXVaz-11" target="o61bZkSr8tZisU5YXVaz-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o61bZkSr8tZisU5YXVaz-11" value="随机数处理器：&lt;div&gt;处理随机数过滤字段&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="320" y="610" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="o61bZkSr8tZisU5YXVaz-13" value="暂定前端写死" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#dae8fc;" vertex="1" parent="1">
+        <mxCell id="o61bZkSr8tZisU5YXVaz-13" value="暂定后端提供接口" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="530" y="140" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="o61bZkSr8tZisU5YXVaz-15" value="随机数过滤字段是否需要支持自定义" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#ffe6cc;" vertex="1" parent="1">
-          <mxGeometry x="460" y="610" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o61bZkSr8tZisU5YXVaz-16" value="人群使用处理器：&lt;div&gt;处理写入OSS中&lt;/div&gt;&lt;div&gt;输出字段&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="320" y="720" width="120" height="60" as="geometry" />
