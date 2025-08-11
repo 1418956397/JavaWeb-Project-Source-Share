@@ -54,14 +54,14 @@
         <mxCell id="m_zHExUfeF9yj6iozSSD-9" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-240" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8SZU6OC8F64CNyh53qsG-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8SZU6OC8F64CNyh53qsG-1" target="8SZU6OC8F64CNyh53qsG-7">
+        <mxCell id="8SZU6OC8F64CNyh53qsG-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8SZU6OC8F64CNyh53qsG-1" target="8SZU6OC8F64CNyh53qsG-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8SZU6OC8F64CNyh53qsG-1" value="读取holo" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="-10" y="410" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8SZU6OC8F64CNyh53qsG-7" value="封装返回" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-30" y="560" width="100" height="50" as="geometry" />
+          <mxGeometry x="-30" y="720" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="8SZU6OC8F64CNyh53qsG-11" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.025;entryY=0.406;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8SZU6OC8F64CNyh53qsG-7" target="m_zHExUfeF9yj6iozSSD-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -89,18 +89,29 @@
           <mxGeometry x="349" y="165" width="129" height="75" as="geometry" />
         </mxCell>
         <mxCell id="8SZU6OC8F64CNyh53qsG-19" value="写入缓存" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="354" y="370" width="120" height="80" as="geometry" />
+          <mxGeometry x="354" y="430" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="8SZU6OC8F64CNyh53qsG-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.875;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8SZU6OC8F64CNyh53qsG-21" target="8SZU6OC8F64CNyh53qsG-19">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="540" y="340" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="540" y="410" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="8SZU6OC8F64CNyh53qsG-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8SZU6OC8F64CNyh53qsG-21" target="8SZU6OC8F64CNyh53qsG-28">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8SZU6OC8F64CNyh53qsG-21" value="查询holo结果&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8SZU6OC8F64CNyh53qsG-27" value="符合" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8SZU6OC8F64CNyh53qsG-25" target="8SZU6OC8F64CNyh53qsG-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8SZU6OC8F64CNyh53qsG-25" value="判断结果数量" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="550" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8SZU6OC8F64CNyh53qsG-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8SZU6OC8F64CNyh53qsG-28" target="8SZU6OC8F64CNyh53qsG-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8SZU6OC8F64CNyh53qsG-28" value="判断结果&lt;div&gt;数量&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="350" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
