@@ -88,6 +88,9 @@
         <mxCell id="8SZU6OC8F64CNyh53qsG-17" value="判断接口参数是&lt;div&gt;否传入枚举值&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="349" y="165" width="129" height="75" as="geometry" />
         </mxCell>
+        <mxCell id="8SZU6OC8F64CNyh53qsG-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8SZU6OC8F64CNyh53qsG-19" target="8SZU6OC8F64CNyh53qsG-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="8SZU6OC8F64CNyh53qsG-19" value="写入缓存" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="354" y="430" width="120" height="80" as="geometry" />
         </mxCell>
@@ -112,6 +115,9 @@
         </mxCell>
         <mxCell id="8SZU6OC8F64CNyh53qsG-28" value="判断结果&lt;div&gt;数量&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8SZU6OC8F64CNyh53qsG-31" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="600" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
