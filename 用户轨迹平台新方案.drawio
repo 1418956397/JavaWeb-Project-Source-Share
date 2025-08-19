@@ -1,9 +1,76 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.0">
   <diagram name="第 1 页" id="5voi8yb7iHYW7vKMXMiH">
-    <mxGraphModel>
+    <mxGraphModel dx="1845" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="MrIlbHOsHNiRRGtyVH3s-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MrIlbHOsHNiRRGtyVH3s-1" target="MrIlbHOsHNiRRGtyVH3s-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MrIlbHOsHNiRRGtyVH3s-1" value="用户轨迹平台" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="60" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MrIlbHOsHNiRRGtyVH3s-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MrIlbHOsHNiRRGtyVH3s-2" target="MrIlbHOsHNiRRGtyVH3s-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MrIlbHOsHNiRRGtyVH3s-2" value="组装查询sql，&lt;div&gt;每次查询最新分区&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MrIlbHOsHNiRRGtyVH3s-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MrIlbHOsHNiRRGtyVH3s-4" target="MrIlbHOsHNiRRGtyVH3s-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MrIlbHOsHNiRRGtyVH3s-4" value="使用holo查询odps全量表" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="330" y="415" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="MrIlbHOsHNiRRGtyVH3s-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MrIlbHOsHNiRRGtyVH3s-7" target="MrIlbHOsHNiRRGtyVH3s-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MrIlbHOsHNiRRGtyVH3s-7" value="数仓侧" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MrIlbHOsHNiRRGtyVH3s-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MrIlbHOsHNiRRGtyVH3s-8" target="MrIlbHOsHNiRRGtyVH3s-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MrIlbHOsHNiRRGtyVH3s-8" value="每日等待业务数据加工完成" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="32.5" y="150" width="125" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MrIlbHOsHNiRRGtyVH3s-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MrIlbHOsHNiRRGtyVH3s-10" target="MrIlbHOsHNiRRGtyVH3s-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MrIlbHOsHNiRRGtyVH3s-10" value="加工出增量数据" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="48.75" y="230" width="92.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MrIlbHOsHNiRRGtyVH3s-13" value="starrocks历史&lt;div&gt;全量数据&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MrIlbHOsHNiRRGtyVH3s-15" value="输出结果" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MrIlbHOsHNiRRGtyVH3s-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MrIlbHOsHNiRRGtyVH3s-17" target="MrIlbHOsHNiRRGtyVH3s-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MrIlbHOsHNiRRGtyVH3s-24" value="sql查询结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MrIlbHOsHNiRRGtyVH3s-23">
+          <mxGeometry x="-0.2571" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrIlbHOsHNiRRGtyVH3s-17" value="&lt;div&gt;odps对应&lt;/div&gt;df全量表" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="47.5" y="420" width="95" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="MrIlbHOsHNiRRGtyVH3s-18" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MrIlbHOsHNiRRGtyVH3s-17" target="MrIlbHOsHNiRRGtyVH3s-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-210" y="440" as="sourcePoint" />
+            <mxPoint x="-160" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-160" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrIlbHOsHNiRRGtyVH3s-19" value="初始化第一次全量同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MrIlbHOsHNiRRGtyVH3s-18">
+          <mxGeometry x="0.4105" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
