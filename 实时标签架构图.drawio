@@ -38,15 +38,15 @@
           <mxGeometry x="480" y="250" width="230" height="320" as="geometry" />
         </mxCell>
         <mxCell id="Q13Pztqq7FikdaKVvbH1-12" value="基础元数据" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="535" y="250" width="100" height="40" as="geometry" />
+          <mxGeometry x="545" y="250" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Q13Pztqq7FikdaKVvbH1-14" value="元数据" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="Q13Pztqq7FikdaKVvbH1-14" value="元数据DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="565" y="450" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Q13Pztqq7FikdaKVvbH1-15" value="接口源数据提取" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Q13Pztqq7FikdaKVvbH1-16" value="标签元数据提取" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Q13Pztqq7FikdaKVvbH1-16" value="标签元数据提取：&lt;div&gt;名称，值类型等&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Q13Pztqq7FikdaKVvbH1-17" value="值校验" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
