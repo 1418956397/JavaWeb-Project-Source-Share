@@ -4,61 +4,62 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Q13Pztqq7FikdaKVvbH1-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q13Pztqq7FikdaKVvbH1-1" target="Q13Pztqq7FikdaKVvbH1-11">
+        <mxCell id="Q13Pztqq7FikdaKVvbH1-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Q13Pztqq7FikdaKVvbH1-1" target="Q13Pztqq7FikdaKVvbH1-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Q13Pztqq7FikdaKVvbH1-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q13Pztqq7FikdaKVvbH1-1" target="Q13Pztqq7FikdaKVvbH1-17">
+        <mxCell id="Q13Pztqq7FikdaKVvbH1-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q13Pztqq7FikdaKVvbH1-1" target="Q13Pztqq7FikdaKVvbH1-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Q13Pztqq7FikdaKVvbH1-1" value="实时标签" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Q13Pztqq7FikdaKVvbH1-1" value="实时标签元数据缓存&lt;div&gt;获取&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="315" y="10" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Q13Pztqq7FikdaKVvbH1-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="250" width="230" height="320" as="geometry" />
+          <mxGeometry y="100" width="230" height="320" as="geometry" />
         </mxCell>
         <mxCell id="Q13Pztqq7FikdaKVvbH1-3" value="接口源" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="130" y="250" width="100" height="40" as="geometry" />
+          <mxGeometry x="60" y="100" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Q13Pztqq7FikdaKVvbH1-4" value="上游接口" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="450" width="120" height="80" as="geometry" />
+          <mxGeometry x="50" y="300" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Q13Pztqq7FikdaKVvbH1-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q13Pztqq7FikdaKVvbH1-5" target="Q13Pztqq7FikdaKVvbH1-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Q13Pztqq7FikdaKVvbH1-5" value="实时人群" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Q13Pztqq7FikdaKVvbH1-5" value="实时人群比对" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="-260" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Q13Pztqq7FikdaKVvbH1-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q13Pztqq7FikdaKVvbH1-7" target="Q13Pztqq7FikdaKVvbH1-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Q13Pztqq7FikdaKVvbH1-7" value="汇总标签数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Q13Pztqq7FikdaKVvbH1-7" value="汇总数据，&lt;div&gt;进行实时标签数据&lt;/div&gt;&lt;div&gt;召回&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="-130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Q13Pztqq7FikdaKVvbH1-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="250" width="230" height="320" as="geometry" />
+          <mxGeometry x="520" y="-110" width="230" height="320" as="geometry" />
         </mxCell>
         <mxCell id="Q13Pztqq7FikdaKVvbH1-12" value="基础元数据" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="545" y="250" width="100" height="40" as="geometry" />
+          <mxGeometry x="585" y="-110" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Q13Pztqq7FikdaKVvbH1-14" value="元数据DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="565" y="450" width="60" height="80" as="geometry" />
+        <mxCell id="Q13Pztqq7FikdaKVvbH1-14" value="元数据缓存" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="605" y="90" width="65" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Q13Pztqq7FikdaKVvbH1-15" value="接口源数据提取" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="320" width="120" height="60" as="geometry" />
+          <mxGeometry x="50" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Q13Pztqq7FikdaKVvbH1-16" value="标签元数据提取：&lt;div&gt;名称，值类型等&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="320" width="120" height="60" as="geometry" />
+          <mxGeometry x="580" y="-40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Q13Pztqq7FikdaKVvbH1-17" value="值校验" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="10" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Q13Pztqq7FikdaKVvbH1-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.4;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Q13Pztqq7FikdaKVvbH1-17" target="Q13Pztqq7FikdaKVvbH1-3">
+        <mxCell id="Q13Pztqq7FikdaKVvbH1-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q13Pztqq7FikdaKVvbH1-22" target="Q13Pztqq7FikdaKVvbH1-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Q13Pztqq7FikdaKVvbH1-20" value="获取结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Q13Pztqq7FikdaKVvbH1-19">
-          <mxGeometry x="-0.1875" y="4" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="Q13Pztqq7FikdaKVvbH1-22" value="接口源数据获取" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q13Pztqq7FikdaKVvbH1-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.009;entryY=0.341;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Q13Pztqq7FikdaKVvbH1-22" target="Q13Pztqq7FikdaKVvbH1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q13Pztqq7FikdaKVvbH1-25" value="数据汇总返回" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="320" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
