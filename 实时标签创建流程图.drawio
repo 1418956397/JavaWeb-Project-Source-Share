@@ -25,7 +25,7 @@
         <mxCell id="mvZhOEaOCcuFYLV9gbfs-10" value="接口源信息校验" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="250" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mvZhOEaOCcuFYLV9gbfs-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mvZhOEaOCcuFYLV9gbfs-11">
+        <mxCell id="mvZhOEaOCcuFYLV9gbfs-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mvZhOEaOCcuFYLV9gbfs-11" target="mvZhOEaOCcuFYLV9gbfs-18">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="370" y="352.5" as="targetPoint" />
           </mxGeometry>
@@ -48,10 +48,10 @@
           <mxGeometry x="339.5" y="585" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mvZhOEaOCcuFYLV9gbfs-18" value="core服务调用&lt;div&gt;接口源结果查询&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="309.5" y="350" width="120" height="80" as="geometry" />
+          <mxGeometry x="309.5" y="360" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mvZhOEaOCcuFYLV9gbfs-19" value="缓存写入" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="309.5" y="710" width="120" height="80" as="geometry" />
+          <mxGeometry x="309.5" y="700" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
