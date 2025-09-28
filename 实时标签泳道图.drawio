@@ -52,10 +52,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FtnBUCDx0wFN6M4704JU-30" value="标签服务层" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="560" y="70" width="110" height="600" as="geometry" />
+          <mxGeometry x="560" y="70" width="115" height="626.75" as="geometry" />
+        </mxCell>
+        <mxCell id="FtnBUCDx0wFN6M4704JU-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FtnBUCDx0wFN6M4704JU-30" source="FtnBUCDx0wFN6M4704JU-40" target="FtnBUCDx0wFN6M4704JU-43">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FtnBUCDx0wFN6M4704JU-40" value="提取接口源信息" style="whiteSpace=wrap;html=1;" vertex="1" parent="FtnBUCDx0wFN6M4704JU-30">
-          <mxGeometry x="10" y="450" width="90" height="44.5" as="geometry" />
+          <mxGeometry x="12.5" y="450" width="90" height="44.5" as="geometry" />
+        </mxCell>
+        <mxCell id="FtnBUCDx0wFN6M4704JU-43" value="获取接口源结果" style="whiteSpace=wrap;html=1;" vertex="1" parent="FtnBUCDx0wFN6M4704JU-30">
+          <mxGeometry x="11.25" y="530" width="92.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FtnBUCDx0wFN6M4704JU-31" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="FtnBUCDx0wFN6M4704JU-32">
           <mxGeometry relative="1" as="geometry">
@@ -67,7 +73,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FtnBUCDx0wFN6M4704JU-36" value="信息校验" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="575" y="320" width="80" height="50" as="geometry" />
+          <mxGeometry x="577.5" y="320" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FtnBUCDx0wFN6M4704JU-37" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FtnBUCDx0wFN6M4704JU-27" target="FtnBUCDx0wFN6M4704JU-36">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -79,10 +85,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FtnBUCDx0wFN6M4704JU-38" value="标签信息获取" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="587.5" y="400" width="55" height="90" as="geometry" />
+          <mxGeometry x="590" y="400" width="55" height="90" as="geometry" />
         </mxCell>
         <mxCell id="FtnBUCDx0wFN6M4704JU-42" value="接口源服务层" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="750" y="70" width="100" height="300" as="geometry" />
+          <mxGeometry x="750" y="70" width="100" height="600" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
