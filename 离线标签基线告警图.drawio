@@ -101,6 +101,37 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="1C2vZiXGF0nR4XJzLEwL-6" edge="1" parent="1" source="yBfuY_RLyO2GW1Tnik7i-4" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;dashed=1;dashPattern=8 8;entryX=0.633;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.363;exitY=0.133;exitDx=0;exitDy=0;exitPerimeter=0;" target="yBfuY_RLyO2GW1Tnik7i-8" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="265" y="295" />
+              <mxPoint x="265" y="252" />
+              <mxPoint x="84" y="252" />
+            </Array>
+            <mxPoint x="278" y="291" as="sourcePoint" />
+            <mxPoint x="212" y="187" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1C2vZiXGF0nR4XJzLEwL-7" connectable="0" parent="1C2vZiXGF0nR4XJzLEwL-6" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="推算" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1C2vZiXGF0nR4XJzLEwL-10" edge="1" parent="1" source="yBfuY_RLyO2GW1Tnik7i-4" style="endArrow=classic;html=1;rounded=0;exitX=0.363;exitY=0.1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;dashed=1;dashPattern=8 8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" target="yBfuY_RLyO2GW1Tnik7i-14" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="267" y="215" />
+              <mxPoint x="188" y="215" />
+              <mxPoint x="188" y="212" />
+              <mxPoint x="-100" y="212" />
+              <mxPoint x="-100" y="232" />
+              <mxPoint x="-113" y="232" />
+            </Array>
+            <mxPoint x="227" y="215" as="sourcePoint" />
+            <mxPoint x="33" y="216" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1C2vZiXGF0nR4XJzLEwL-11" connectable="0" parent="1C2vZiXGF0nR4XJzLEwL-10" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="推算" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
