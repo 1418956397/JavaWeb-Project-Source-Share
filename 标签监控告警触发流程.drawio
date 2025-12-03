@@ -1,9 +1,103 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.3">
   <diagram name="第 1 页" id="1ea9xjlEfECjKr4NDLQx">
-    <mxGraphModel>
+    <mxGraphModel dx="1018" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="gUUqXXwpVQk-CXfCmtTq-3" edge="1" parent="1" source="gUUqXXwpVQk-CXfCmtTq-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gUUqXXwpVQk-CXfCmtTq-4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gUUqXXwpVQk-CXfCmtTq-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="xxljob触发&lt;div&gt;（10分钟轮训）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="110" x="340" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gUUqXXwpVQk-CXfCmtTq-7" edge="1" parent="1" source="gUUqXXwpVQk-CXfCmtTq-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gUUqXXwpVQk-CXfCmtTq-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="395" y="270" />
+              <mxPoint x="280" y="270" />
+            </Array>
+            <mxPoint x="305" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gUUqXXwpVQk-CXfCmtTq-12" edge="1" parent="1" source="gUUqXXwpVQk-CXfCmtTq-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gUUqXXwpVQk-CXfCmtTq-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="395" y="270" />
+              <mxPoint x="530" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gUUqXXwpVQk-CXfCmtTq-4" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="标签表" vertex="1">
+          <mxGeometry height="80" width="60" x="365" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="gUUqXXwpVQk-CXfCmtTq-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="查出&lt;div&gt;未完成&lt;/div&gt;&lt;div&gt;离线标签&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="65" x="425" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="gUUqXXwpVQk-CXfCmtTq-15" edge="1" parent="1" source="gUUqXXwpVQk-CXfCmtTq-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="gUUqXXwpVQk-CXfCmtTq-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="410" />
+              <mxPoint x="395" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gUUqXXwpVQk-CXfCmtTq-8" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="基线表获取对应基线信息" vertex="1">
+          <mxGeometry height="80" width="80" x="240" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="gUUqXXwpVQk-CXfCmtTq-16" edge="1" parent="1" source="gUUqXXwpVQk-CXfCmtTq-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="gUUqXXwpVQk-CXfCmtTq-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gUUqXXwpVQk-CXfCmtTq-9" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="获取标签&lt;div&gt;告警配置信息&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="75" x="357.5" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="gUUqXXwpVQk-CXfCmtTq-10" edge="1" parent="1" source="gUUqXXwpVQk-CXfCmtTq-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="gUUqXXwpVQk-CXfCmtTq-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gUUqXXwpVQk-CXfCmtTq-17" edge="1" parent="1" source="gUUqXXwpVQk-CXfCmtTq-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="gUUqXXwpVQk-CXfCmtTq-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="410" />
+              <mxPoint x="395" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gUUqXXwpVQk-CXfCmtTq-11" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="dataworks&lt;div&gt;获取上游表&lt;/div&gt;&lt;div&gt;完成时间&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="470" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="gUUqXXwpVQk-CXfCmtTq-19" edge="1" parent="1" source="gUUqXXwpVQk-CXfCmtTq-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="gUUqXXwpVQk-CXfCmtTq-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gUUqXXwpVQk-CXfCmtTq-14" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="计算出告警、&lt;div&gt;预警时间&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="335" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="gUUqXXwpVQk-CXfCmtTq-21" edge="1" parent="1" source="gUUqXXwpVQk-CXfCmtTq-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gUUqXXwpVQk-CXfCmtTq-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gUUqXXwpVQk-CXfCmtTq-22" connectable="0" parent="gUUqXXwpVQk-CXfCmtTq-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="未超过" vertex="1">
+          <mxGeometry relative="1" x="-0.2571" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gUUqXXwpVQk-CXfCmtTq-24" edge="1" parent="1" source="gUUqXXwpVQk-CXfCmtTq-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gUUqXXwpVQk-CXfCmtTq-23" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gUUqXXwpVQk-CXfCmtTq-18" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="判断是否&lt;div&gt;超过阈值&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="355" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="gUUqXXwpVQk-CXfCmtTq-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="结束返回" vertex="1">
+          <mxGeometry height="35" width="80" x="540" y="567.5" as="geometry" />
+        </mxCell>
+        <mxCell id="gUUqXXwpVQk-CXfCmtTq-23" parent="1" style="whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="165" width="225" x="282.5" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="gUUqXXwpVQk-CXfCmtTq-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="告警系统" vertex="1">
+          <mxGeometry height="30" width="60" x="365" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="gUUqXXwpVQk-CXfCmtTq-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="执行告警通知" vertex="1">
+          <mxGeometry height="60" width="120" x="335" y="710" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
