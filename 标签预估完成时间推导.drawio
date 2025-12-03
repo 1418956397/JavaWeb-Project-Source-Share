@@ -1,9 +1,79 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.3">
   <diagram name="第 1 页" id="4bek5jKqU2BFgQWar5QH">
-    <mxGraphModel>
+    <mxGraphModel dx="1018" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="N9Xn9oEV_V4E2ojbym_G-1" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="标签调度&lt;div&gt;等待时间&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="294" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="N9Xn9oEV_V4E2ojbym_G-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="上游表A" vertex="1">
+          <mxGeometry height="80" width="120" x="110" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="N9Xn9oEV_V4E2ojbym_G-7" edge="1" parent="1" source="N9Xn9oEV_V4E2ojbym_G-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="N9Xn9oEV_V4E2ojbym_G-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N9Xn9oEV_V4E2ojbym_G-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="上游表B" vertex="1">
+          <mxGeometry height="80" width="120" x="294" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="N9Xn9oEV_V4E2ojbym_G-8" edge="1" parent="1" source="N9Xn9oEV_V4E2ojbym_G-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="N9Xn9oEV_V4E2ojbym_G-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="150" />
+              <mxPoint x="354" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N9Xn9oEV_V4E2ojbym_G-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="上游表C" vertex="1">
+          <mxGeometry height="80" width="120" x="490" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="N9Xn9oEV_V4E2ojbym_G-6" edge="1" parent="1" source="N9Xn9oEV_V4E2ojbym_G-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="N9Xn9oEV_V4E2ojbym_G-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="150" />
+              <mxPoint x="354" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N9Xn9oEV_V4E2ojbym_G-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="找出最晚更新时间" vertex="1">
+          <mxGeometry height="30" width="60" x="350" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="N9Xn9oEV_V4E2ojbym_G-11" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="标签加工时间" vertex="1">
+          <mxGeometry height="60" width="120" x="294" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="N9Xn9oEV_V4E2ojbym_G-12" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="370" as="sourcePoint" />
+            <mxPoint x="680" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N9Xn9oEV_V4E2ojbym_G-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="预估产出时间" vertex="1">
+          <mxGeometry height="30" width="80" x="520" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="N9Xn9oEV_V4E2ojbym_G-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Buffer时间&lt;div&gt;（动态调整）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="294" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="N9Xn9oEV_V4E2ojbym_G-15" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" value="" vertex="1">
+          <mxGeometry height="120" width="20" x="270" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="N9Xn9oEV_V4E2ojbym_G-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;color: rgb(255, 153, 51);&quot;&gt;标签加工总体耗时&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="210" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="N9Xn9oEV_V4E2ojbym_G-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="294" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="N9Xn9oEV_V4E2ojbym_G-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;color: rgb(255, 153, 51);&quot;&gt;标签加工&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 153, 51);&quot;&gt;总体耗时&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 153, 51);&quot;&gt;（动态调整）&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="76" x="316" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="N9Xn9oEV_V4E2ojbym_G-19" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="50" y="480" as="sourcePoint" />
+            <mxPoint x="670" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N9Xn9oEV_V4E2ojbym_G-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Text" vertex="1">
+          <mxGeometry height="30" width="60" x="530" y="440" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
