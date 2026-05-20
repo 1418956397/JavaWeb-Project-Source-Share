@@ -1,9 +1,30 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="aQ444bQL3SltaCjJkUd8">
-    <mxGraphModel>
+    <mxGraphModel dx="1006" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="V8I-B53EHr6aa9r-dM8P-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="A&lt;div&gt;目标特征&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="620" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="V8I-B53EHr6aa9r-dM8P-4" edge="1" parent="1" source="V8I-B53EHr6aa9r-dM8P-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="V8I-B53EHr6aa9r-dM8P-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V8I-B53EHr6aa9r-dM8P-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="D&lt;div&gt;复用已有&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="60" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="V8I-B53EHr6aa9r-dM8P-7" edge="1" parent="1" source="V8I-B53EHr6aa9r-dM8P-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="V8I-B53EHr6aa9r-dM8P-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V8I-B53EHr6aa9r-dM8P-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="B&lt;div&gt;新建特征&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="V8I-B53EHr6aa9r-dM8P-6" edge="1" parent="1" source="V8I-B53EHr6aa9r-dM8P-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="V8I-B53EHr6aa9r-dM8P-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V8I-B53EHr6aa9r-dM8P-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="C&lt;div&gt;新建特征&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="290" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
